@@ -1,0 +1,25 @@
+body{
+  background: #a9e9e9;
+  text-align: center;
+}
+img{
+  width: 20%;
+}
+.card2{
+  background: #00dd89;
+  width: 25%;
+  border-radius: 2em;
+}
+#card1{
+  justify-content: space-around;
+  display: flex;
+  margin: 3%;
+}
+.card2:hover{
+  box-shadow: 0 8px 8px 0 #fa0f0f;
+}
+@media only screen and (min-device-width:350px) and (max-device-width:460px) {
+  .card2{
+    width: 100%;
+  }
+}

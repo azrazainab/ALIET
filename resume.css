@@ -1,0 +1,51 @@
+.main{
+  background: #a9e9e9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  background: #fafac3;
+  width: 24.75%;
+  text-align: center;
+}
+.left1 img{
+  width: 30%;
+}
+.right{
+  background: #ffdab9;
+  width: 74.75%;
+}
+@media only screen and (min-device-width:460px) and (max-device-width:750px) {
+  .main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 100%;
+  }
+  .left1{
+    width: 100%;
+  }
+  .details{
+    display: flex;
+    justify-content: space-between;
+  }
+  .right{
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width:350px) and (max-device-width:460px) {
+  .main{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .left{
+    width: 100%;
+    display: flex;
+  }
+  .right{
+    width: 100%;
+  }
+}
